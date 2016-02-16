@@ -4,7 +4,7 @@ SoupUI - Ferramenta de Teste para Web Services, trata-se de um
 projeto Open Source que pode ser obtido no site: https://www.soapui.org/.
 
 Existe uma versão profissional que se chama SoupUI NG Pro que pode ser
-obtida pelo mesmo site.
+obtida pelo site https://smartbear.com/.
 
 SoupUI é uma das mais populares ferramentas de testes para testes de Web Services. 
 É capaz de testar qualquer tipo de Web Service, a saber:
@@ -32,3 +32,12 @@ seria um teste para cada  operação da calculadora, a saber: Add,Division,Multi
 A versão Open Source ainda permite o teste de carga para verificar o funcionamento do WebService
 poderá ter em ambiente de produção.
 Também é possível realizar o teste de Segurança, como por exemplo: SQL Injection, XPath Injection.
+
+Também foi incluido mais dois projetos de testes chamados Temperature Conversion e Weather, estes
+estão associados Web Services publicos com os respectivos WSDL, a saber:
+http://www.webservicex.net/ConvertTemperature.asmx?WSDL
+http://www.webservicex.net/globalweather.asmx?WSDL
+Nestes Web Services os interessados podem a partir do projeto realizado adicionar outros
+testes e realizar testes de segurança e carga.
+O SoupUI costuma estar instalado nos servidores de web para realização de testes e funcionamento
+de serviços web, ele pode ser instalado tanto em servidores Windows como Linux.
